@@ -5,13 +5,13 @@ const menu_open = document.querySelector(".menu-open")
 const menu_background = document.querySelector(".menu-background")
 
 hamburger_button.addEventListener("click", function() {
-    menu_open.classList.toggle("hidden")
+    menu_open.classList.toggle("visible")
     menu_background.classList.toggle("hidden")
     hamburger_button.classList.toggle("hidden")
 })
 
 x_button.addEventListener("click", function() {
-    menu_open.classList.toggle("hidden")
+    menu_open.classList.toggle("visible")
     menu_background.classList.toggle("hidden")
     hamburger_button.classList.toggle("hidden")
 })

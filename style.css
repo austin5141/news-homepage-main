@@ -172,9 +172,14 @@ hr {
     position:fixed;
     background-color:hsl(36, 100%, 99%);
     top:0;
-    right:0;
+    right:-100rem;
     width:20rem;
     height:100%;
+    transition:all 0.3s;
+}
+
+.menu-open.visible {
+    right:0;
 }
 
 .menu-open > ul {

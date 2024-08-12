@@ -139,17 +139,16 @@ hr {
     text-decoration:none;
     color:black;
     font-weight:700;
+    text-wrap:nowrap;
 }
 
 .flex-content > a:hover {
-    font-size:1.5rem;
-    text-decoration:none;
     color:hsl(5, 85%, 63%);
 }
 
 .flex-content > h2, .flex-content > a, .flex-content > p {
     margin-block:1rem;
-    margin-left:2rem;
+    margin-inline:2rem;
 }
 
 .hamburger-button:hover {
@@ -210,7 +209,7 @@ hr {
     margin-inline:1rem;
 }
 
-@media (max-width:720px) {
+@media (max-width:1000px) {
 
     .mobile {
         display:block;

@@ -39,7 +39,7 @@ h1 {
     color:hsl(236, 13%, 42%);
 }
 
-.navbar > a:hover {
+.nav-content > a:hover {
     color:hsl(5, 85%, 63%);
 }
 
@@ -199,12 +199,6 @@ hr {
     text-decoration:none;
     font-size:1.2rem;
     color:black;
-}
-
-.menu-open > ul > li > a:hover {
-    text-decoration:none;
-    font-size:1.2rem;
-    color:hsl(5, 85%, 63%);
 }
 
 .x-button {
